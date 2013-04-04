@@ -1,4 +1,4 @@
 Practica
 ========
 
-Practica proba
+Practica Sistemes i Tecnologies web
