@@ -1,3 +1,5 @@
 from django.db import models
 
-# Create your models here.
+class Investigats(models.Model):
+	Nom_Investigat = models.TextField(max_length=100)
+	Cas = models.TextField(max_length=100)
