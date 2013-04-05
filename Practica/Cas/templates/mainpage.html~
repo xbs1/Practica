@@ -1,0 +1,13 @@
+
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="estil.css"/>
+		<title>{{ titlehead}}</title>
+	</head>
+
+	<body>
+		<h1 >{{ pagetitle }}</h1>
+		<p>{{ contentbody }}</p>
+		<p1>cdfcsdcsdcsdc</p1>
+	</body>
+</html>

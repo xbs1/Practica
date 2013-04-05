@@ -1,4 +1,6 @@
 from django.conf.urls import patterns, include, url
+import sys
+from Cas.views import *
 
 # Uncomment the next two lines to enable the admin:
 # from django.contrib import admin
@@ -6,7 +8,7 @@ from django.conf.urls import patterns, include, url
 
 urlpatterns = patterns('',
     # Examples:
-    # url(r'^$', 'Practica.views.home', name='home'),
+     url(r'^$', mainpage, name='home'),
     # url(r'^Practica/', include('Practica.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
@@ -14,4 +16,5 @@ urlpatterns = patterns('',
 
     # Uncomment the next line to enable the admin:
     # url(r'^admin/', include(admin.site.urls)),
+	#url(r'^user/(\w+)/$', mainpage),
 )
